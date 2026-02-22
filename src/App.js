@@ -28,9 +28,11 @@ class App extends Component {
         
         <div className="main-content-area">
           {
-          // add About and portfolio components here based on state
           this.state.currentComponent === 'resume' ? <Resume /> :
-           this.state.currentComponent === 'contact' ? <Contact /> : <About />}
+          this.state.currentComponent === 'contact' ? <Contact /> : 
+          this.state.currentComponent === 'portfolio' ? <Portfolio /> :
+           <About />}
+           
         </div>
       </div>
     );

@@ -4,46 +4,46 @@ import './Resume.css';
 function Resume() {
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      school: "University Name",
-      year: "2020-2024",
-      gpa: "3.8/4.0"
+      degree: "Bachelor of Science in Data Science",
+      school: "New Jersey Institute of Technology",
+      year: "2023-2027",
+      gpa: "3.98/4.0"
     },
     {
       degree: "High School Diploma",
-      school: "High School Name",
-      year: "2016-2020",
-      gpa: "3.9/4.0"
+      school: "John P Stevens High School",
+      year: "2019-2023",
+      gpa: "3.4/4.0"
     }
   ];
 
   const experience = [
     {
-      title: "Frontend Developer Intern",
-      company: "Tech Company Inc.",
-      period: "Summer 2023",
+      title: "Data Science Intern",
+      company: "Johnson & Johnson",
+      period: "January - July 2025",
       responsibilities: [
-        "Developed responsive web applications using React and CSS",
-        "Collaborated with design team to implement user interfaces",
-        "Optimized application performance and accessibility"
+        "Analyzed global sales and shipping data using Python, SQL, and Databricks (Spark) to identify anomalies related to counterfeiting, diversion, and tampering supporting investigations across multiple regions",
+        "Accelerated detection of irregular shipments by designing 50+ interactive Tableau and Matplotlib dashboards, centralized within a custom SharePoint analytics platform to streamline regional access to import/export insights",
+        "Engineered an internal AutoML framework in Python to automate model selection and hyperparameter tuning, introducing multiclass classification and feature importance tracking to scale anomaly detection capabilities"
       ]
     },
     {
-      title: "Teaching Assistant",
-      company: "University CS Department",
-      period: "2022-2023",
+      title: "Research Fellow",
+      company: "NJIT Summer Research Institute",
+      period: "Summer 2024",
       responsibilities: [
-        "Assisted students with programming assignments and projects",
-        "Conducted lab sessions for introductory programming courses",
-        "Graded assignments and provided constructive feedback"
+        "Developed and simulated a self-assembly algorithm in MATLAB, analyzing swarm behavior across multiple configurations to evaluate formation stability and accuracy",
+        "Built a computer simulation to generate and analyze experiment results, comparing various swarm behaviors",
+        "Presented findings at the NJIT Undergraduate Summer Research Symposium"
       ]
     }
   ];
 
   const skills = {
-    "Programming Languages": ["JavaScript", "Python", "Java", "C++", "HTML5", "CSS3"],
-    "Frameworks & Libraries": ["React", "Node.js", "Express", "Bootstrap", "jQuery"],
-    "Tools & Technologies": ["Git", "VS Code", "MongoDB", "PostgreSQL", "Figma", "Adobe XD"]
+    "Programming & Query Languages": ["Python", "MySQL", "Java", "C++", "R","Matlab", "HTML5", "CSS3"],
+    "Data Analytics & Visualization": ["Tableau", "DataBricks", "Matplotlib", "Scikit-Learn", "Chart.js", "React", "Node.js"],
+    "Tools & Technologies": ["Git", "VS Code", "Excel", "Jupyter Notebook", "Linux", "Docker"]
   };
 
   return (
